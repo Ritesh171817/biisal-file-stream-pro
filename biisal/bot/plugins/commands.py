@@ -16,7 +16,7 @@ from pyrogram.types import ReplyKeyboardMarkup
 from biisal.vars import bot_name , bisal_channel , bisal_grp
 
 
-SRT_TXT = """<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsɴᴀ {}!,
+SRT_TXT = """<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {}!,
 I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.
 
 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.!
@@ -225,7 +225,7 @@ async def cb_handler(client, query):
     
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/bisal_file2link_bot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/biisal_bot'>Bɪɪsᴀʟ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
+            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='http://t.me/RAS_file2link_bot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/RS_Movie'>RAS MOVIE</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
@@ -235,7 +235,7 @@ async def cb_handler(client, query):
         )
     elif data == "help":
         await query.message.edit_caption(
-        caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/bisal_files'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/bisal_files'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/bisal_files'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/bisal_files'>ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</a>..ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
+        caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/RS_Movie'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/RS_Movie'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/RS_Movie'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/RS_Movie'>ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</a>..ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
             reply_markup=InlineKeyboardMarkup(
 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
@@ -245,7 +245,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/RS_Movie'>RAS Movie</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://t.me/RS_Movie'>RAS Movie</a> ʙʀᴏ..\n\nMovie : <a href='https://t.me/RS_Movie'>RAS Movie</a></b>",
+            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/RS_Movie'>RAS Movie</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://t.me/RS_Movie'>RAS Movie</a> ʙʀᴏ..\n\nMovie : <a href='https://t.me/RS_Movie'>RAS Movie</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
